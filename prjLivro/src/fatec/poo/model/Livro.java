@@ -27,7 +27,7 @@ public class Livro {
     
     public double devolver(int dias){
         this.situacao = false;
-        return dias*this.valMultaDiaria;
+        return dias*this.valMultaDiaria+0;
     }
     
     
